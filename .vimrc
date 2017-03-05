@@ -4,23 +4,23 @@ filetype off
 
 " Vundle: https://github.com/gmarik/Vundle.vim
 " set the runtime path to include Vundle and initialize
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
+"set rtp+=~/.vim/bundle/Vundle.vim
+"call vundle#begin()
 " let Vundle manage Vundle, required
 " Plugin 'gmarik/Vundle.vim'
 " Plugin 'floobits/floobits-neovim'
 
 " Add maktaba and codefmt to the runtimepath.
 " (The latter must be installed before it can be used.)
-Plugin 'google/vim-maktaba'
-Plugin 'google/vim-codefmt'
+" Plugin 'google/vim-maktaba'
+" Plugin 'google/vim-codefmt'
 " Also add Glaive, which is used to configure codefmt's maktaba flags. See
 " `:help :Glaive` for usage.
-Plugin 'google/vim-glaive'
+" Plugin 'google/vim-glaive'
 " ...
-call vundle#end()
+"call vundle#end()
 " the glaive#Install() should go after the "call vundle#end()"
-call glaive#Install()
+"call glaive#Install()
 " Optional: Enable codefmt's default mappings on the <Leader>= prefix.
 "Glaive codefmt plugin[mappings]
 
